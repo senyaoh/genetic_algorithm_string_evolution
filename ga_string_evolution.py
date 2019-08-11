@@ -13,6 +13,7 @@ __maintainer__ = 'Senyao Hou'
 __email__ = 'senyao.hou@gmail.com'
 __status__ = 'Development'
 
+import time
 import operator
 import string, random
 from typing import List
@@ -177,6 +178,7 @@ def trace_ancestry(specimen: Specimen) -> List[Specimen]:
 
 
 def simulate():
+    start_time = time.time()
     print("Simulation initiating")
     print(f"Target Specimen:{TARGET_STR}")
     print(f"Population Size:{POPULATION}")
@@ -214,6 +216,8 @@ def simulate():
     print("Family Lineage of the found specimen:")
     print('\n------>\n'.join(str(specimen) for specimen in family_lineage))
 
-
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f'The program took {str(duration)} seconds to complete.')
 if __name__ == "__main__":
     simulate()
