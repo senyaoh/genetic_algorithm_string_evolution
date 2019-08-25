@@ -1,8 +1,19 @@
-# Genetic Algorithm on string evolution -- A demostration of GA
+# String Evolution -- A simple demostration of Genetic Algorithm 
+## Inspired by Ayla's presentation on neuroevolution and a gift for her birthday
 
 ## Requirement
-* Please use python version >= 3.6 because typing and f-strings are used
-* Please make sure you have `numpy` installed
+* Please use python version >= 3.6 because typing and f-strings are used, you can check by running `python3 --version`
+* Please make sure you have `numpy` installed, you can do it by running `pip3 install numpy`
+
+## Run the program
+1. If you have Git installed, go on and clone the repository:
+```bash
+git clone https://github.com/senyaoh/genetic_algorithm_string_evolution.git
+```
+2. To execute the program, simply run inside the repository folder:
+```bash
+python3 ga_string_evolution.py
+```
 
 ## Description
 This is a demostration of genetic algorthm by evolving random strings into a target string.
@@ -30,3 +41,4 @@ We randomly pick strings in the new generation based on the given mutation rate 
 
 ### Evolution
 We repeat the above steps until a string that matches the target string is created.
+
