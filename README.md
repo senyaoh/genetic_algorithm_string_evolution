@@ -1,5 +1,5 @@
 # String Evolution -- A simple demostration of Genetic Algorithm 
-## Inspired by Ayla's presentation on neuroevolution and a gift for her birthday
+## Inspired by Ayla's presentation on neuroevolution and a gift for her birthday🎂
 
 ## Requirement
 * Please use python version >= 3.6 because typing and f-strings are used, you can check by running `python3 --version`
